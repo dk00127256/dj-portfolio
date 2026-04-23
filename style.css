@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+/* Apply font to everything possible in Streamlit */
+html, body, [class*="css"]  {
+    font-family: 'Outfit', sans-serif !important;
+}
+
+/* Adjust main padding */
+.block-container {
+    padding-top: 2rem;
+}
+
+/* Custom skill tag styling - Glassmorphism & Neon */
+.skill-tag {
+    background: rgba(14, 165, 233, 0.1);
+    color: #38BDF8;
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    margin-right: 0.6rem;
+    display: inline-block;
+    margin-bottom: 0.6rem;
+    font-weight: 500;
+    border: 1px solid rgba(14, 165, 233, 0.3);
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.skill-tag:hover {
+    background: rgba(14, 165, 233, 0.2);
+    border-color: #38BDF8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.25);
+    color: #BAE6FD;
+}
+
+/* Styling for images to make them dynamic */
+img {
+    border-radius: 12px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Streamlit specific elements overrides for a premium feel */
+hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+h1, h2, h3 {
+    background: linear-gradient(90deg, #F8FAFC 0%, #94A3B8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
