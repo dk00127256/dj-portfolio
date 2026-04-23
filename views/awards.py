@@ -9,9 +9,9 @@ def render():
     with col2:
         st.markdown("### Career Awards & Recognition")
         st.markdown("""
-        * **AWS GSI Disruptive Architecture Competition 2023**: Awarded first place for innovative solutions.
-        * **IBM Excellence Award**: Recognized for managing IVR and CTI infrastructure.
-        * **Numo Uno (Accenture)**: Achieved for surpassing critical project goals.
-        * **Tech Mahindra**: Honored with a 'Pat on the back' award for exemplary project transition and customer satisfaction.
+        * 🏆 **AWS GSI Disruptive Architecture Competition 2023**: Awarded first place for innovative solutions.
+        * 🎖️ **IBM Excellence Award**: Recognized for managing IVR and CTI infrastructure.
+        * 🥇 **Numo Uno (Accenture)**: Achieved for surpassing critical project goals.
+        * 👏 **Tech Mahindra**: Honored with a 'Pat on the back' award for exemplary project transition and customer satisfaction.
         """)
 
