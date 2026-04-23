@@ -57,3 +57,12 @@ h1, h2, h3 {
     -webkit-text-fill-color: transparent;
     font-weight: 700;
 }
+
+/* Security properties to prevent image dragging */
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
+}
