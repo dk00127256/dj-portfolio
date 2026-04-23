@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
+import streamlit.components.v1 as components
 
 try:
     import pillow_heif
@@ -26,6 +27,29 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+def apply_security():
+    components.html(
+        """
+        <script>
+        const doc = window.parent.document;
+        // Disable right-click
+        doc.addEventListener('contextmenu', event => event.preventDefault());
+        // Disable drag
+        doc.addEventListener('dragstart', event => event.preventDefault());
+        // Disable DevTools shortcuts
+        doc.addEventListener('keydown', event => {
+            if (event.keyCode == 123 || (event.ctrlKey && event.shiftKey && (event.keyCode == 73 || event.keyCode == 74)) || (event.ctrlKey && event.keyCode == 85)) {
+                event.preventDefault();
+            }
+        });
+        </script>
+        """,
+        height=0,
+        width=0,
+    )
+
+apply_security()
 
 # Load CSS
 with open("style.css") as f:
