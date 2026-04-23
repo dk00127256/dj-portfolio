@@ -10,10 +10,10 @@ html, body, [class*="css"]  {
     padding-top: 2rem;
 }
 
-/* Custom skill tag styling - Glassmorphism & Neon */
+/* Custom skill tag styling - Light Mode Glassmorphism */
 .skill-tag {
-    background: rgba(14, 165, 233, 0.1);
-    color: #38BDF8;
+    background: rgba(37, 99, 235, 0.08);
+    color: #2563EB;
     padding: 0.3rem 0.8rem;
     border-radius: 0.5rem;
     font-size: 0.85rem;
@@ -21,57 +21,44 @@ html, body, [class*="css"]  {
     display: inline-block;
     margin-bottom: 0.6rem;
     font-weight: 500;
-    border: 1px solid rgba(14, 165, 233, 0.3);
+    border: 1px solid rgba(37, 99, 235, 0.15);
     backdrop-filter: blur(4px);
     transition: all 0.3s ease;
     cursor: default;
 }
 
 .skill-tag:hover {
-    background: rgba(14, 165, 233, 0.2);
-    border-color: #38BDF8;
+    background: rgba(37, 99, 235, 0.15);
+    border-color: #2563EB;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.25);
-    color: #BAE6FD;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
+    color: #1D4ED8;
 }
 
 /* Styling for images to make them dynamic */
 img {
     border-radius: 12px;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
 }
 
 img:hover {
     transform: scale(1.02);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 /* Streamlit specific elements overrides for a premium feel */
 hr {
-    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
 }
 
 h1, h2, h3 {
-    background: linear-gradient(90deg, #F8FAFC 0%, #94A3B8 100%);
+    background: linear-gradient(90deg, #0F172A 0%, #475569 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
-}
-
-/* Security properties to prevent image dragging */
-img {
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-    user-select: none;
-}
-
-/* Security properties to prevent image dragging */
-img {
-    -webkit-user-drag: none;
-    -khtml-user-drag: none;
-    -moz-user-drag: none;
-    -o-user-drag: none;
-    user-select: none;
 }
