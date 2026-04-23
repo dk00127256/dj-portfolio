@@ -13,7 +13,7 @@ def render():
     
     with col1:
         st.markdown("""
-        Hi! I am **Dhananjay (DJ) Kulkarni**, a Cloud Architecture, GenAI, and Next-Gen Contact Center (CCaaS) specialist focused on building secure, scalable customer experience systems.
+        Hi! I'm **Dhananjay (DJ) Kulkarni**, a Cloud Architecture and Technical Project Manager specializing in AI/ML, Agentic AI, and Next-Gen Contact Centers (CCaaS). I focus on building secure, scalable customer experience systems that leverage the latest in GenAI to drive real-world business impact.
         
         Accomplished Technical Leader and Pre-Sales Architect with 18+ years of experience driving large-scale digital transformations and Data Center Exits for high-compliance enterprises (HIPAA, FedRAMP, GxP). I am an expert in bridging legacy infrastructure with cloud-native innovation, leading C-level stakeholders through modernization strategies to optimize ROI.
         
