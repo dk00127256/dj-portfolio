@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 /* Apply font to everything possible in Streamlit */
 html, body, [class*="css"]  {
-    font-family: 'Outfit', sans-serif !important;
+    font-family: 'Inter', sans-serif !important;
 }
 
 /* Adjust main padding */
@@ -10,10 +10,10 @@ html, body, [class*="css"]  {
     padding-top: 2rem;
 }
 
-/* Custom skill tag styling - Light Mode Glassmorphism */
+/* Custom skill tag styling - Premium Sky Blue & Cream */
 .skill-tag {
-    background: rgba(37, 99, 235, 0.08);
-    color: #2563EB;
+    background: rgba(2, 132, 199, 0.08);
+    color: #0284C7;
     padding: 0.3rem 0.8rem;
     border-radius: 0.5rem;
     font-size: 0.85rem;
@@ -21,18 +21,18 @@ html, body, [class*="css"]  {
     display: inline-block;
     margin-bottom: 0.6rem;
     font-weight: 500;
-    border: 1px solid rgba(37, 99, 235, 0.15);
+    border: 1px solid rgba(2, 132, 199, 0.15);
     backdrop-filter: blur(4px);
     transition: all 0.3s ease;
     cursor: default;
 }
 
 .skill-tag:hover {
-    background: rgba(37, 99, 235, 0.15);
-    border-color: #2563EB;
+    background: rgba(2, 132, 199, 0.15);
+    border-color: #0284C7;
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.12);
-    color: #1D4ED8;
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.12);
+    color: #0369A1;
 }
 
 /* Styling for images to make them dynamic */
